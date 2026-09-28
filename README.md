@@ -1,1 +1,1 @@
-"Temperatur Control" 
+"Temperature Control" 
