@@ -10,7 +10,7 @@ Note that results will vary due to different response characteristics of the com
 
 Follow [this tutorial](https://uk.mathworks.com/help/simulink/supportpkg/arduino_ref/getting-started-with-arduino-hardware.html) to learn how to interface simulink with arduino uno.
 
-## The Engineering Story behind the final design - From Initial to Final Concept
+## The Engineering Story behind the final design - From Initial to Final Concept (in Progress)
 The aim of this project was to design a model in MATLAB and Simulink to control a systems temperature using 2 PID controllers, one for the heater and one for the fan/motor. 
 
 Based on the user input from the dashboard, the system could be controlled at one of two levels, 65 or 45 degrees. 
@@ -22,10 +22,10 @@ The Image Above shows the final intimidating simulink model design, but I wish t
 ### Initial Algorithm
 Firstly, the algorithm of the systems operation was designed as follows
 
-At 45C setpoint
-if temperature < 45:
+...At 45C setpoint..
+...if temperature < 45..
   Turn on heater
-else if temp34ature = 45:
+else if temperature = 45
   do nothing
 else turn on fan
 
